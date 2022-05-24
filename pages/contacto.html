@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEeIRR</title>
+    <link rel="shortcut icon" href="../images/rsz_solo_logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@100;300;500&family=Raleway:ital,wght@0,200;0,400;0,900;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="header-contact">
+        <nav class="nav">
+            <div class="nav__primeraBarra">
+                <a class="nav__link" href="https://api.whatsapp.com/send/?phone=5493364888888&text&app_absent=0"
+                    target="_blank">Tel: 336 64888888</a>
+                <a href="./contacto.html#formulario" target="_blank"><img class="nav__img" src="../images/correo.png"
+                        alt="Sobre de contacto."></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img class="nav__img nav__img--lkd" src="../images/linkedin.png"
+                        alt="Logo Linkedin."></a>
+            </div>
+
+            <div class="nav__segundaBarra">
+                <div>
+                    <a href="../index.html"><img class="logo" src="../images/logocompleto.png"
+                            alt="Imagen del logo de PEEIRR."></a>
+                </div>
+
+                <div>
+                    <ul class="nav__list">
+                        <li><a class="nav__menu" href="../index.html">Home</a></li>
+                        <li><a class="nav__menu" href="./servicios.html">Servicios</a></li>
+                        <li><a class="nav__menu" href="./nosotros.html">Nosotros</a></li>
+                        <li><a class="nav__menu" href="./proyectos.html">Proyectos</a></li>
+                        <li><a class="nav__menu" href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header__img-h1">
+            <h1>Contacto</h1>
+        </div>
+    </header>
+
+
+    <main>
+
+        <div class="main__div-flex">
+
+            <!-- section formulario -->
+            <section class="section__formulario">
+                <h2>Dejanos tu mensaje</h2>
+                <p class="form__paragraph">Se requieren campos marcados con un asterisco (*)</p>
+                <form id="#formulario" action="" method="get" enctype="text/plain">
+
+                    <fieldset>
+                        <legend>Formulario de Contacto</legend>
+                        <div class="form-grid">
+                            <div class="form__nombre">
+                                <label for="userNombre"></label>
+                                <input class="input" type="text" name="userNombre" id="userNombre"
+                                    placeholder="Nombre *">
+                            </div>
+                            <div class="form__apellido">
+                                <label for="userApellido"></label>
+                                <input class="input" type="text" name="userApellido" id="userApellido" required
+                                    placeholder="Apellido *">
+                            </div>
+                            <div class="form__email">
+                                <label for="userEmail"></label>
+                                <input class="input" type="email" name="userEmail" id="userEmail" required
+                                    placeholder="E-mail *">
+                            </div>
+                            <div class="form__telefono">
+                                <label for="userTelefono"></label>
+                                <input class="input" type="tel" name="userTelefono" id="userTelefono"
+                                    placeholder="Teléfono">
+                            </div>
+                            <div class="form__asunto">
+                                <label for="userAsunto"></label>
+                                <input class="input" type="text" name="userAsunto" id="userAsunto"                              placeholder="Asunto">
+                            </div>
+                            <div class="form__mensaje">
+                                <textarea class="input input--mensaje" name="userMensaje" id="userMensaje" cols="100"
+                                    rows="10" required placeholder="Mensaje *"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form__submit">
+                            <input class="input__button" type="submit" value="Enviar mensaje">
+                        </div>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- seccion sumate -->
+            <section class="section__sumate section__sumate--contacto">
+                <h4 class="section__sumate-title">Sumate a Nuestro Equipo</h4>
+                <h5 class="section__sumate-subtitle">Envianos tu CV a <b>rrhh@peeirr.com.ar</b></h5>
+                <a class="section__button section__button--contacto " href="./sumate.html">o Enviá tu solicitud</a>
+                <img class="section__sumate-img" src="../images/rsz_sumate2.jpg" alt="imagen de las manos de un equipo de trabajo unidas.">
+            </section>
+        </div>
+
+
+        <!-- seccion encontranos -->
+        <section class="section__encontranos">
+            <h3>Encontranos</h3>
+            <div class="section__encontranos-container">
+                <div class="section__encontranos-div">
+                    <h4 class="section__encontranos-title">P.E.e.I.R.R. Proyectos Eléctricos e Industriales Riccomi
+                        Rembado.</h4>
+                    <ul>
+                        <li class="section__encontranos-item"><span>Dirección</span>: Balcarce 333. San Nicolás de los
+                            Arroyos. Buenos Aires.</li>
+                        <li class="section__encontranos-item"><span>Llámenos</span>: +54 9 336-4888888.</li>
+                        <li class="section__encontranos-item"><span>Correo electónico</span>: administracion@peeirr.com.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section__encontranos-div">
+                    <iframe class="section__encontranos-iframe"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.9740710182045!2d-60.220839684267325!3d-33.34562719952721!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b767826a29532b%3A0x819785a6f5172ce0!2sBalcarce%20333%2C%20San%20Nicol%C3%A1s%20de%20Los%20Arroyos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1651335702468!5m2!1ses!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__container">
+            <section class="footer__section">
+                <div>
+                    <a href="../index.html"><img class="logo--footer" src="../images/logocompleto.png"
+                            alt="Imagen del logo de PEEIRR."></a>
+                </div>
+
+                <div class="footer__div-redes">
+                    <a href="https://www.linkedin.com/" target="_blank"><img src="../images/linkedin2.png"
+                            class="footer__img" alt="Logo de Linkedin."></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="../images/twitter.png"
+                            class="footer__img" alt="Logo de Twitter."></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png"
+                            class="footer__img" alt="Logo de Facebook."></a>
+                </div>
+            </section>
+
+              <section class="footer__section">
+                <h5 class="footer__subtitle">Contacto</h5>
+                <ul class="footer__list">
+                    <li><a class="footer__link"
+                            href="https://www.google.com.ar/maps/place/Balcarce+333,+San+Nicol%C3%A1s+de+Los+Arroyos,+Provincia+de+Buenos+Aires/@-33.3456317,-60.2208397,17z/data=!3m1!4b1!4m5!3m4!1s0x95b767826a29532b:0x819785a6f5172ce0!8m2!3d-33.3456317!4d-60.218651"
+                            target="_blank"><img class="footer__icons" src="../images/ubicacion.png"
+                                alt="Ícono de ubicación.">Balcarce
+                            333. San Nicolás de los Arroyos. Bs As. </a></li>
+                    <li><a class="footer__link"
+                            href="https://api.whatsapp.com/send/?phone=5493364888888&text&app_absent=0"
+                            target="_blank"><img class="footer__icons" src="../images/telephone.png"
+                                alt="Ícono de teléfono.">+54 9
+                            336-4888888</a></li>
+                    <li><a class="footer__link" href="mailto:administracion@peeirr.com" target="_blank"><img
+                                class="footer__icons" src="../images/correo2.png"
+                                alt="Ícono de correo electónico.">administracion@peeirr.com.ar</a>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="footer__section">
+                <h5 class="footer__subtitle">Horarios de atención</h5>
+                <p class="footer__paragraph"> <b>Lunes - Viernes:</b><br>8:00 a 16:00 hs<br>
+                    <b>Sábados - Domingos:</b><br>Cerrado</p>
+            </section>        
+
+            <section class="footer__section">
+                 <h5 class="footer__subtitle">Navegación</h5>
+                <ul class="footer__list">
+                    <li><a class="footer__link footer__link--navegacion " href="../index.html">Home</a></li>
+                    <li><a class="footer__link footer__link--navegacion" href="./servicios.html">Servicios</a></li>
+                    <li><a class="footer__link footer__link--navegacion" href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="footer__link footer__link--navegacion" href="./proyectos.html">Proyectos</a></li>
+                    <li><a class="footer__link footer__link--navegacion" href="./contacto.html">Contacto</a></li>
+                </ul>
+            </section>
+
+            
+
+        </div>
+
+        <!-- footer final -->
+        <section class="footer__final">
+            <h6>Copyright 2021 PEeIRR | Manuela Mancione</h6>
+            <h6>Política de Privacidad</h6>
+        </section>
+    </footer>
+</body>
+
+</html>
